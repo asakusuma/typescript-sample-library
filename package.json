@@ -1,0 +1,27 @@
+{
+  "name": "typescript-sample-library",
+  "version": "0.0.1",
+  "description": "Sample typescript library",
+  "license": "MIT",
+  "main": "exports/index.js",
+  "scripts": {
+    "test": "",
+    "watch": "broccoli-timepiece exports",
+    "build": "rm -rf exports; broccoli build exports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asakusuma/typescript-sample-library"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": {
+    "name": "Asa Kusuma"
+  },
+  "devDependencies": {
+    "broccoli": "^1.1.1",
+    "broccoli-typescript-compiler": "^1.0.1",
+    "typescript": "^2.2.1"
+  }
+}
